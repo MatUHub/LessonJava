@@ -13,7 +13,6 @@ public class RobotMap {
     }
 
     public RobotMap(int n, int m, int maxRobotCount) {
-        // TODO: 13.01.2023 Реализовать проверку входных параметров.
         this.n = n;
         this.m = m;
         this.maxRobotCount = maxRobotCount;

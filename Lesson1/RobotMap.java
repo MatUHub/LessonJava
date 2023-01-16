@@ -5,12 +5,18 @@ public class RobotMap {
 
     private final int n;
     private final int m;
+    private final int maxRobotCount;
     private final List<Robot> robots;
+
+    public RobotMap(int n ,int m ){
+        this(n, m, 10);
+    }
 
     public RobotMap(int n, int m, int maxRobotCount) {
         // TODO: 13.01.2023 Реализовать проверку входных параметров.
         this.n = n;
         this.m = m;
+        this.maxRobotCount = maxRobotCount;
         this.robots = new ArrayList<>();
     }
 
